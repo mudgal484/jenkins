@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="D:/IdeaProjects/AnnotationsTestNG">
+        <classes>
+            <class name="Testng.Homepage">
+                <methods>
+                    <include name="homepage"/>
+                    <include name="homepage2"/>
+                </methods>
+            </class>
+            <class name="Testng.Search_Page">
+                <methods>
+                    <include name="search_page"/>
+                    <include name="search_page2"/>
+                    <include name="search_page3"/>
+                    <include name="search_page4"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
